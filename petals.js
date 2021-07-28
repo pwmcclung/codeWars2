@@ -1,12 +1,7 @@
-function howMuchILoveYou(nbPetals) {
-    let phrases = [
-    'not at all',
-    'I love you',
-    'a little',
-    'a lot',
-    'passionately',
-    'madly',
-  ]
-    return phrases[nbPetals % 6]
+function sakuraFall(v) {
+    if (v <= 0){
+      return 0
+    }else{
+    return 400 / v
+      }
   }
-  
