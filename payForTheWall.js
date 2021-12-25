@@ -13,3 +13,4 @@ function whoIsPaying(name){
     }else {
       return ['']
     }
+    
