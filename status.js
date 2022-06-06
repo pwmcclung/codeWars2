@@ -1,0 +1,1 @@
+let getStatus=(isBusy) =>({ status: isBusy ? 'busy' : 'available' })
