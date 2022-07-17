@@ -1,0 +1,1 @@
+let convert=(a)=>a.map(x=>x*1)
