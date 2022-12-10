@@ -1,19 +1,19 @@
 Array.prototype.sameStructureAs = function (other) {
     if (!(this instanceof Array) || !(other instanceof Array)) return false;
 
-    let thisStruct = checker(this),
-        otherStruct = checker(other);
+    let str1 = checker(this),
+        str2 = checker(other);
 
-    return thisStruct === otherStruct;
+    return str1 === str2;
 
     function checker(array) {
         if (!(array instanceof Array)) return "";
-        let str = '';
+        let newWords = '';
         for (let i = 0; i < array.length; i++) {
             if (array[i] instanceof Array) {
-                str += i + array[i].length + '[' + checker(array[i]) + ']';
+                newWords += i + array[i].length + '[' + checker(array[i]) + ']';
             }
         }
-        return str;
+        return newWords;
     }
 }

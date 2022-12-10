@@ -1,3 +1,4 @@
+
 function vaporcode(string) {
     string = string.replace(/ /g, "")
     string = string.toUpperCase()
