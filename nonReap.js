@@ -6,3 +6,10 @@ function firstNonRepeated(s) {
   }
   return null
 }
+
+//This is a pretty straightforward problem, 
+//first we split the string into an arry
+//then we use a for loop to iterate over the array. if
+//the index of the element at array i is equal to the last index of the element at array[i]
+//return the elemene
+//or return null
