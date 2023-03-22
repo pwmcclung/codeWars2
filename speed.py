@@ -11,3 +11,5 @@ def speed_limit(speed, signals):
         elif y > 29:
             cost += 500
     return cost
+
+#this was a fun but simple problem
