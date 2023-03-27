@@ -1,0 +1,1 @@
+const removeConsecutiveDuplicates = s => s.split(' ').map((x,i,arr)=>(x === arr[i+1] ? (x = ''):x)).join(` `).replace(/\s+/g, ' ').trim();

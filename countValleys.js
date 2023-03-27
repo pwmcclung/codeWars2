@@ -1,3 +1,5 @@
+//code walkthrough
+
 function countingValleys(s) {
     let arr = s.split('')
     let valleys = 0

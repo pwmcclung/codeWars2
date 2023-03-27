@@ -4,7 +4,6 @@ def get_strings(city):
     city = city.lower()
     city = ''.join(re.split('[^a-z]*', city))
     arr = [*city]
-    print(arr)
     freq = {}
     for x in arr:
         if x in freq:
